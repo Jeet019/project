@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background-color: #cccccc;
+            padding: 12px;
+            text-align: center;
+        }
+        nav{
+            background-color: #888888;
+        }
+        nav ul {
+            list-style: none;
+            padding: 12px;
+        }
+        nav ul li{
+            display: inline;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            margin-right: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Live Virtual Class</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallary.html">Gallary</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="register.html">MIS</a></li>
+
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="register_form">
+            <h1>Mark Details</h1>
+            <form name="frm2" onsubmit="return f2()">
+                Maths: <input type="number" name="maths" placeholder="Maths" ><br>
+                English: <input type="number" name="English" placeholder="English marks" ><br>
+                Science <input type="number" name="Science" placeholder="Science marks" ><br>
+                Result: <input type="number" name="total"><br>
+                <button type="submit">result</button>
+            </form>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

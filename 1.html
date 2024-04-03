@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background-color: #cccccc;
+            padding: 12px;
+            text-align: center;
+        }
+        nav{
+            background-color: #888888;
+        }
+        nav ul {
+            list-style: none;
+            padding: 12px;
+        }
+        nav ul li{
+            display: inline;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            margin-right: 12px;
+        }
+        .register_form{
+            width: 50%;
+            margin: auto;
+            margin-top: 24px;
+            background-color: #cdcdcd;
+            padding: 24px;
+            border-radius: 12px;
+        }
+        .register_form h1{
+            margin-bottom: 24px;
+        }
+        input,select,textarea{
+            margin-bottom: 12px;
+            padding: 4px;
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            background-color: transparent;
+        }
+        .register_form button{
+            padding: 12px 24px;
+            border: none;
+            background-color: #4169e1;
+            color: #ffffff;
+            border-radius: 24px;
+        }
+    </style>
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Live Virtual Class</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallary.html">Gallary</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="register.html">MIS</a></li>
+
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="register_form">
+            <h1>Registeration Form</h1>
+            <form name="frm1">
+                Name: <input type="text" name="name" placeholder="Enter Yout Name" required>
+                <br>
+                Gender: Male: <input type="radio" name="gender" value="male"> Female: <input type="radio" name="gender" value="female">
+                <br>
+                Cource: <select name="cource">
+                    <option value="java">Java</option>
+                    <option value="cplusplus">C++</option>
+                    <option value="c">C</option>
+                    <option value="Python">Python</option>
+                </select>
+                <br>
+                Software Knowledge : Office 365: <input type="checkbox" name="office365"> Python: <input type="checkbox" name="python">
+                <br>
+                Remark: <br>
+                <textarea name="remark" cols="30" rows=""></textarea>
+                <br>
+                <input type="button" onclick="fun1()" value="Register"/>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>

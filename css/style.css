@@ -1,0 +1,29 @@
+.imgheight{
+    height: 470px;
+}
+.mid{
+    font-family: 'Roboto',sans-serif;
+    border-radius: 20px;
+    border: 2px solid #7c73e6;
+    background-color: #FFF5EE;
+    height: 800px;
+}
+.tt{
+    text-indent: 10%;
+}
+.testmid{
+    font-family: 'Roboto',sans-serif;
+    border-radius: 20px;
+    border: 2px solid #7c73e6;
+    background-color: #FFF5EE;
+    height: 500px;
+}
+.testmid h1{
+    text-align: center;
+}
+.rform{
+    /* text-align: center; */
+
+    margin-left: 35%;
+    
+}
